@@ -3,9 +3,7 @@
 from django.db import models
 from django.conf import settings
 from django.core.exceptions import ImproperlyConfigured
-from django.utils.translation import ugettext_lazy as _
 
-from wagtail.core.models import Page, Site
 from wagtail.images.edit_handlers import ImageChooserPanel
 
 from meta import settings as meta_settings
