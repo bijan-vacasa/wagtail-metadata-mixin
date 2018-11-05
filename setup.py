@@ -24,14 +24,6 @@ setup(
     version=find_version('wagtailmetadata', '__init__.py'),
     license='MIT License',
 
-    install_requires=[
-        'django-meta>=1.0',
-        'wagtail',
-    ],
-    requires=[
-        'Django (>=1.8.1)',
-    ],
-
     description='OpenGraph, Twitter Card and Google+ snippet tags for Wagtail CMS pages',
     long_description=read('README.rst'),
 
